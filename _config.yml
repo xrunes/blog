@@ -103,17 +103,17 @@ theme: maupassant
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-#deploy:
-#  type: git
-#  repo: git@github.com:Xrunes/Hexo.git
-#  branch: blog
-
 deploy:
-  type: rsync
-  host: 127.0.0.1
-  user: pi
-  root: /home/pi/xrunes.github.io/blog/
-  port: 22
-  delete: true
-  verbose: true
-  ignore_errors: true
+  type: git
+  repo: git@github.com:xrunes/blog.git
+  branch: dev
+
+#deploy:
+#  type: rsync
+#  host: 127.0.0.1
+#  user: pi
+#  root: /home/pi/xrunes.github.io/blog/
+#  port: 22
+#  delete: true
+#  verbose: true
+#  ignore_errors: true
